@@ -40,6 +40,22 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/_articles.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_articles.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_footer.html",
+      "oF" : 0
+    },
     "\/dev\/content\/_header.kit" : {
       "cB" : 0,
       "ft" : 2048,
