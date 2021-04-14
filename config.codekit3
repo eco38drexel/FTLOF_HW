@@ -138,15 +138,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/logo\/logo_fresh.png" : {
-      "ft" : 32768,
+    "\/deploy\/img\/logo\/logo_fresh.jpg" : {
+      "ft" : 16384,
       "iS" : 38274,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/logo\/logo_fresh.png",
+      "oAP" : "\/deploy\/img\/logo\/logo_fresh.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
