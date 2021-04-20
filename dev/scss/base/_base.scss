@@ -29,6 +29,34 @@ ul {
     .header {
         grid-area: header;
     }
+
+    .searchbar {
+        grid-area: searchbar;
+    }
+
+    .hero {
+        grid-area: hero;
+    }
+
+    .recipes {
+        grid-area: recipes;
+    }
+
+    .imagegallery {
+        grid-area: imagegallery;
+    }
+
+    .articles {
+        grid-area: articles;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
+
+
+
     margin-bottom: 24px;
 
     @include md {

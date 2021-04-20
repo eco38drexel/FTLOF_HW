@@ -373,6 +373,24 @@ ul li {
 .content .header {
   grid-area: header;
 }
+.content .searchbar {
+  grid-area: searchbar;
+}
+.content .hero {
+  grid-area: hero;
+}
+.content .recipes {
+  grid-area: recipes;
+}
+.content .imagegallery {
+  grid-area: imagegallery;
+}
+.content .articles {
+  grid-area: articles;
+}
+.content .footer {
+  grid-area: footer;
+}
 @media (min-width: 768px) {
   .content {
     margin-bottom: 32px;
