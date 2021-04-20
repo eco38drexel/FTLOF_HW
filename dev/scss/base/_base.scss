@@ -61,23 +61,50 @@ ul {
 
         .imagegallery ul {
             display: grid;
-            grid-template-areas: 
-            "image-1"
-            "image-2"
-            "image-3";
-
-            .image-1 {
-                grid-area: image-1;
-            }
-
-            .image-2 {
-                grid-area: image-2;
-            }
-
-            .image-3 {
-                grid-area: image-3;
-            }
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
         }
+    }
+
+    @include md {
+        margin-bottom: 32px;
+
+        .articles ul {
+            display: grid;
+            grid-template-columns: 30% 1fr;
+        }
+    }   
+    
+    @include md {
+        margin-bottom: 32px;
+
+        .recipes ul {
+            display: grid;
+            grid-template-columns: 10% 200px 10% 200px;
+        }
+    }
+
+    @include md {
+        margin-bottom: 32px;
+
+        .hero ul {
+            display: grid;
+            grid-template-columns: 10% 100px 10% 1fr;
+        }
+    }
+
+    @include md {
+        margin-bottom: 32px;
+
+        .header ul {
+            display: grid;
+            grid-template-columns: 22% 1fr;
+        }
+    }
+
+    @include md {
+        margin-bottom: 32px;
+
     }
 
     @include xl {

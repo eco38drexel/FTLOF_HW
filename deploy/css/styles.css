@@ -397,16 +397,49 @@ ul li {
   }
   .content .imagegallery ul {
     display: grid;
-    grid-template-areas: "image-1" "image-2" "image-3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
   }
-  .content .imagegallery ul .image-1 {
-    grid-area: image-1;
+}
+@media (min-width: 768px) {
+  .content {
+    margin-bottom: 32px;
   }
-  .content .imagegallery ul .image-2 {
-    grid-area: image-2;
+  .content .articles ul {
+    display: grid;
+    grid-template-columns: 30% 1fr;
   }
-  .content .imagegallery ul .image-3 {
-    grid-area: image-3;
+}
+@media (min-width: 768px) {
+  .content {
+    margin-bottom: 32px;
+  }
+  .content .recipes ul {
+    display: grid;
+    grid-template-columns: 10% 200px 10% 200px;
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    margin-bottom: 32px;
+  }
+  .content .hero ul {
+    display: grid;
+    grid-template-columns: 10% 100px 10% 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    margin-bottom: 32px;
+  }
+  .content .header ul {
+    display: grid;
+    grid-template-columns: 22% 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    margin-bottom: 32px;
   }
 }
 @media (min-width: 1200px) {
@@ -442,6 +475,15 @@ p {
 
 @media (min-width: 768px) {
   .image-2 {
+    display: block;
+  }
+}
+.header-text {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header-text {
     display: block;
   }
 }

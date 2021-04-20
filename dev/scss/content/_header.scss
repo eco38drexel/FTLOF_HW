@@ -1,0 +1,9 @@
+.header-text {
+    display: none;
+}
+
+@include md {
+    .header-text {
+        display: block;
+    }
+}
