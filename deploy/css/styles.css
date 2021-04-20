@@ -395,6 +395,19 @@ ul li {
   .content {
     margin-bottom: 32px;
   }
+  .content .imagegallery ul {
+    display: grid;
+    grid-template-areas: "image-1" "image-2" "image-3";
+  }
+  .content .imagegallery ul .image-1 {
+    grid-area: image-1;
+  }
+  .content .imagegallery ul .image-2 {
+    grid-area: image-2;
+  }
+  .content .imagegallery ul .image-3 {
+    grid-area: image-3;
+  }
 }
 @media (min-width: 1200px) {
   .content {

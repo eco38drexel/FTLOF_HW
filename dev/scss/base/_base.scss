@@ -54,13 +54,30 @@ ul {
         grid-area: footer;
     }
 
-
-
-
     margin-bottom: 24px;
 
     @include md {
         margin-bottom: 32px;
+
+        .imagegallery ul {
+            display: grid;
+            grid-template-areas: 
+            "image-1"
+            "image-2"
+            "image-3";
+
+            .image-1 {
+                grid-area: image-1;
+            }
+
+            .image-2 {
+                grid-area: image-2;
+            }
+
+            .image-3 {
+                grid-area: image-3;
+            }
+        }
     }
 
     @include xl {

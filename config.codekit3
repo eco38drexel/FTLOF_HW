@@ -269,6 +269,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/2. CSS Grid\/1. CSS Grid\/scss\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/2. CSS Grid\/1. CSS Grid\/scss\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/2. CSS Grid\/1. CSS Grid\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -543,12 +555,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/articles\/anne-sophie-benoit-Fan_HlAfpu0-unsplash (1).jpg" : {
+    "\/deploy\/img\/articles\/anne-sophie-benoit-Fan_HlAfpu0-unsplash(1).jpg" : {
       "ft" : 16384,
-      "iS" : 640750,
+      "iS" : 69485,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/articles\/anne-sophie-benoit-Fan_HlAfpu0-unsplash (1).jpg",
+      "oAP" : "\/deploy\/img\/articles\/anne-sophie-benoit-Fan_HlAfpu0-unsplash(1).jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -558,7 +570,7 @@
     },
     "\/deploy\/img\/articles\/brooke-lark-nTZOILVZuOg-unsplash.jpg" : {
       "ft" : 16384,
-      "iS" : 997982,
+      "iS" : 103433,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/articles\/brooke-lark-nTZOILVZuOg-unsplash.jpg",
@@ -569,12 +581,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/articles\/foodism360-0eJVAZJ7jJU-unsplash (1).jpg" : {
+    "\/deploy\/img\/articles\/foodism360-0eJVAZJ7jJU-unsplash(1).jpg" : {
       "ft" : 16384,
-      "iS" : 1140914,
+      "iS" : 31873,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/articles\/foodism360-0eJVAZJ7jJU-unsplash (1).jpg",
+      "oAP" : "\/deploy\/img\/articles\/foodism360-0eJVAZJ7jJU-unsplash(1).jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -582,12 +594,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/articles\/foodism360-4-qDs0YzJH0-unsplash (1).jpg" : {
+    "\/deploy\/img\/articles\/foodism360-4-qDs0YzJH0-unsplash(1).jpg" : {
       "ft" : 16384,
-      "iS" : 710502,
+      "iS" : 107940,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/articles\/foodism360-4-qDs0YzJH0-unsplash (1).jpg",
+      "oAP" : "\/deploy\/img\/articles\/foodism360-4-qDs0YzJH0-unsplash(1).jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -597,7 +609,7 @@
     },
     "\/deploy\/img\/articles\/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg" : {
       "ft" : 16384,
-      "iS" : 1540667,
+      "iS" : 66104,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/articles\/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg",
@@ -608,12 +620,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/ola-mishchenko-VRB1LJoTZ6w-unsplash (1).jpg" : {
+    "\/deploy\/img\/hero\/ola-mishchenko-VRB1LJoTZ6w-unsplash(1).jpg" : {
       "ft" : 16384,
-      "iS" : 617691,
+      "iS" : 123234,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/ola-mishchenko-VRB1LJoTZ6w-unsplash (1).jpg",
+      "oAP" : "\/deploy\/img\/hero\/ola-mishchenko-VRB1LJoTZ6w-unsplash(1).jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -621,12 +633,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/imagegallery\/brooke-lark-iLZ8SBO0pn4-unsplash (1).jpg" : {
+    "\/deploy\/img\/imagegallery\/brooke-lark-iLZ8SBO0pn4-unsplash(1).jpg" : {
       "ft" : 16384,
-      "iS" : 1900081,
+      "iS" : 218592,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/imagegallery\/brooke-lark-iLZ8SBO0pn4-unsplash (1).jpg",
+      "oAP" : "\/deploy\/img\/imagegallery\/brooke-lark-iLZ8SBO0pn4-unsplash(1).jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -636,20 +648,20 @@
     },
     "\/deploy\/img\/imagegallery\/dose-juice-sTPy-oeA3h0-unsplash.jpg" : {
       "ft" : 16384,
-      "iS" : 8814748,
+      "iS" : 101469,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/imagegallery\/dose-juice-sTPy-oeA3h0-unsplash.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/imagegallery\/heather-ford-Ug7kk0kThLk-unsplash.jpg" : {
       "ft" : 16384,
-      "iS" : 1214759,
+      "iS" : 96305,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/imagegallery\/heather-ford-Ug7kk0kThLk-unsplash.jpg",
@@ -666,32 +678,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/logo\/logo_fresh.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/recipes\/dan-gold-4_jhDO54BYg-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 1712211,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/recipes\/dan-gold-4_jhDO54BYg-unsplash.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/recipes\/ellieelien-wg2xU_UNiVc-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 724415,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/recipes\/ellieelien-wg2xU_UNiVc-unsplash.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
