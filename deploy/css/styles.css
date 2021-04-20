@@ -435,3 +435,13 @@ p {
 .section-title {
   font-weight: 300;
 }
+
+.image-2 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .image-2 {
+    display: block;
+  }
+}
