@@ -70,7 +70,7 @@ ul {
 
         .articles ul {
             display: grid;
-            grid-template-columns: 30% 1fr;
+            grid-template-columns: 30% 360px;
         }
     }   
     
@@ -79,7 +79,7 @@ ul {
 
         .recipes ul {
             display: grid;
-            grid-template-columns: 20% 200px 10% 200px;
+            grid-template-columns: 30% 200px 30% 200px;
         }
     }
 
@@ -88,7 +88,7 @@ ul {
 
         .hero ul {
             display: grid;
-            grid-template-columns: 20% 100px 20% 1fr;
+            grid-template-columns: 30% 100px 30% 100px;
         }
     }
 
@@ -97,13 +97,12 @@ ul {
 
         .header ul {
             display: grid;
-            grid-template-columns: 35% 1fr;
+            grid-template-columns: 50% 1fr;
         }
     }
 
     @include md {
         margin-bottom: 32px;
-
     }
 
     @include xl {
