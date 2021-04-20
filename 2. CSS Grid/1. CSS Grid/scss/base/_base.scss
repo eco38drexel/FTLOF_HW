@@ -19,13 +19,10 @@ body{
         display: grid;
         grid-template-columns: auto 1200px auto;
         grid-template-areas: 
-        "_header.kit"
-        "_searchbar.kit"
-        "_hero.kit"
-        "_recipes.kit"
-        "_imagegallery.kit"
-        "_articles.kit"
-        "_footer.kit";
+        "header"
+        "hero"
+        "content"
+        "footer";
         min-height: 100vh;
 
         .grid-content{

@@ -366,7 +366,12 @@ ul li {
 }
 
 .content {
+  display: grid;
+  grid-template-areas: "header" "searchbar" "hero" "recipes" "imagegallery" "articles" "footer";
   margin-bottom: 24px;
+}
+.content .header {
+  grid-area: header;
 }
 @media (min-width: 768px) {
   .content {

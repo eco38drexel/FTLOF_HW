@@ -16,6 +16,19 @@ ul {
 }
 
 .content {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "searchbar"
+        "hero"
+        "recipes"
+        "imagegallery"
+        "articles"
+        "footer";
+
+    .header {
+        grid-area: header;
+    }
     margin-bottom: 24px;
 
     @include md {
