@@ -398,7 +398,6 @@ ul li {
   .content .imagegallery ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
   }
 }
 @media (min-width: 768px) {
@@ -416,7 +415,7 @@ ul li {
   }
   .content .recipes ul {
     display: grid;
-    grid-template-columns: 10% 200px 10% 200px;
+    grid-template-columns: 20% 200px 10% 200px;
   }
 }
 @media (min-width: 768px) {
@@ -425,7 +424,7 @@ ul li {
   }
   .content .hero ul {
     display: grid;
-    grid-template-columns: 10% 100px 10% 1fr;
+    grid-template-columns: 20% 100px 20% 1fr;
   }
 }
 @media (min-width: 768px) {
@@ -434,7 +433,7 @@ ul li {
   }
   .content .header ul {
     display: grid;
-    grid-template-columns: 22% 1fr;
+    grid-template-columns: 35% 1fr;
   }
 }
 @media (min-width: 768px) {
