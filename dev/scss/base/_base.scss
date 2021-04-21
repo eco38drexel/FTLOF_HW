@@ -63,46 +63,50 @@ ul {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
         }
-    }
-
-    @include md {
-        margin-bottom: 32px;
 
         .articles ul {
             display: grid;
-            grid-template-columns: 30% 360px;
+            grid-template-columns: 25% 288px;
         }
-    }   
-    
-    @include md {
-        margin-bottom: 32px;
 
         .recipes ul {
             display: grid;
-            grid-template-columns: 30% 200px 30% 200px;
+            grid-template-columns: 30% auto 30% auto;
         }
-    }
-
-    @include md {
-        margin-bottom: 32px;
 
         .hero ul {
             display: grid;
-            grid-template-columns: 30% 100px 30% 100px;
+            grid-template-columns: 30% auto 30% auto;
         }
-    }
 
-    @include md {
-        margin-bottom: 32px;
+        .header {
+            .header-1 {
+                display: grid;
+                grid-template-columns: 10% auto;
+            }
+        }
 
-        .header ul {
+        .footer {
+            .social ul {
+                display: grid;
+                grid-template-columns: repeat(4,20px);
+            }
+        }
+
+            .locations {
+                section ul li {
+                    display: grid;
+                    grid-template-columns: 20px 200px;
+                }
+            }
+        .footer-1 {
             display: grid;
-            grid-template-columns: 50% 1fr;
+            grid-template-areas: 
+            "locations"
+            "email"
+            "social";
+            grid-template-columns: 20% 50% 20%;
         }
-    }
-
-    @include md {
-        margin-bottom: 32px;
     }
 
     @include xl {

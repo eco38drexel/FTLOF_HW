@@ -581,6 +581,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/articles\/foodism360-0eJVAZJ7jJU-unsplash(1).jpg" : {
+      "ft" : 16384,
+      "iS" : 21050,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/articles\/foodism360-0eJVAZJ7jJU-unsplash(1).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/articles\/foodism360-4-qDs0YzJH0-unsplash(1).jpg" : {
       "ft" : 16384,
       "iS" : 107940,
@@ -603,6 +616,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/ola-mishchenko-VRB1LJoTZ6w-unsplash(1).jpg" : {
+      "ft" : 16384,
+      "iS" : 296718,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/ola-mishchenko-VRB1LJoTZ6w-unsplash(1).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -648,7 +674,7 @@
     },
     "\/deploy\/img\/logo\/logo_fresh.jpg" : {
       "ft" : 16384,
-      "iS" : 38274,
+      "iS" : 16159,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/logo\/logo_fresh.jpg",
