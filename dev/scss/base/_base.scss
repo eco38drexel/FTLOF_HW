@@ -15,16 +15,17 @@ ul {
     }
 }
 
-.content {
-    display: grid;
-    grid-template-areas: 
-        "header"
-        "searchbar"
-        "hero"
-        "recipes"
-        "imagegallery"
-        "articles"
-        "footer";
+    main {
+        display: grid;
+        grid-template-areas: 
+            "header"
+            "searchbar"
+            "hero"
+            "recipes"
+            "imagegallery"
+            "articles"
+            "footer";
+    }
 
     .header {
         grid-area: header;
@@ -36,6 +37,30 @@ ul {
 
     .hero {
         grid-area: hero;
+
+        ul {
+            display: grid;
+            grid-template-columns: 300px auto;
+        }
+
+        a {
+            display: grid;
+            grid-template-columns: 350px auto;
+        }
+
+        @include md {
+            ul {
+                grid-template-columns: repeat(12, 1fr);
+
+                .healthy {
+                    grid-column: span 5;
+                }
+
+                .location {
+                    grid-column: span 7;
+                }
+            }
+        }
     }
 
     .recipes {
@@ -48,33 +73,48 @@ ul {
 
     .articles {
         grid-area: articles;
+
+        ul {
+            display: grid;
+        }
+
+        ul {
+            display: grid;
+            grid-template-columns: 25% 288px;
+        }
+
+        @include md {
+            ul {
+                grid-template-columns: 500px 500px;
+                grid-gap: 30px;
+                justify-content: center;
+            }
+        }
     }
 
     .footer {
         grid-area: footer;
+
+        .social ul {
+            display: flex;
+        }
+
+        @include md {
+            section {
+                grid-template-columns: 200px 600px 200px;
+                grid-gap: 30px;
+                justify-content: center;
+            }
+        }
     }
-
-    margin-bottom: 24px;
-
-    @include md {
-        margin-bottom: 32px;
 
         .imagegallery ul {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
         }
 
-        .articles ul {
-            display: grid;
-            grid-template-columns: 25% 288px;
-        }
 
         .recipes ul {
-            display: grid;
-            grid-template-columns: 30% auto 30% auto;
-        }
-
-        .hero ul {
             display: grid;
             grid-template-columns: 30% auto 30% auto;
         }
@@ -96,7 +136,7 @@ ul {
             .locations {
                 section ul li {
                     display: grid;
-                    grid-template-columns: 20px 200px;
+                    grid-template-columns: 30px 200px;
                 }
             }
         .footer-1 {
@@ -105,11 +145,5 @@ ul {
             "locations"
             "email"
             "social";
-            grid-template-columns: 20% 50% 20%;
+            grid-template-columns: 30px 30px 30px;
         }
-    }
-
-    @include xl {
-        margin-bottom: 64px;
-    }
-}

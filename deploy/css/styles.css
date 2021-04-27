@@ -365,74 +365,111 @@ ul li {
   list-style: none;
 }
 
-.content {
+main {
   display: grid;
   grid-template-areas: "header" "searchbar" "hero" "recipes" "imagegallery" "articles" "footer";
-  margin-bottom: 24px;
 }
-.content .header {
+
+.header {
   grid-area: header;
 }
-.content .searchbar {
+
+.searchbar {
   grid-area: searchbar;
 }
-.content .hero {
+
+.hero {
   grid-area: hero;
 }
-.content .recipes {
-  grid-area: recipes;
+.hero ul {
+  display: grid;
+  grid-template-columns: 300px auto;
 }
-.content .imagegallery {
-  grid-area: imagegallery;
-}
-.content .articles {
-  grid-area: articles;
-}
-.content .footer {
-  grid-area: footer;
+.hero a {
+  display: grid;
+  grid-template-columns: 350px auto;
 }
 @media (min-width: 768px) {
-  .content {
-    margin-bottom: 32px;
+  .hero ul {
+    grid-template-columns: repeat(12, 1fr);
   }
-  .content .imagegallery ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  .hero ul .healthy {
+    grid-column: span 5;
   }
-  .content .articles ul {
-    display: grid;
-    grid-template-columns: 25% 288px;
-  }
-  .content .recipes ul {
-    display: grid;
-    grid-template-columns: 30% auto 30% auto;
-  }
-  .content .hero ul {
-    display: grid;
-    grid-template-columns: 30% auto 30% auto;
-  }
-  .content .header .header-1 {
-    display: grid;
-    grid-template-columns: 10% auto;
-  }
-  .content .footer .social ul {
-    display: grid;
-    grid-template-columns: repeat(4, 20px);
-  }
-  .content .locations section ul li {
-    display: grid;
-    grid-template-columns: 20px 200px;
-  }
-  .content .footer-1 {
-    display: grid;
-    grid-template-areas: "locations" "email" "social";
-    grid-template-columns: 20% 50% 20%;
+  .hero ul .location {
+    grid-column: span 7;
   }
 }
-@media (min-width: 1200px) {
-  .content {
-    margin-bottom: 64px;
+
+.recipes {
+  grid-area: recipes;
+}
+
+.imagegallery {
+  grid-area: imagegallery;
+}
+
+.articles {
+  grid-area: articles;
+}
+.articles ul {
+  display: grid;
+}
+.articles ul {
+  display: grid;
+  grid-template-columns: 25% 288px;
+}
+@media (min-width: 768px) {
+  .articles ul {
+    grid-template-columns: 500px 500px;
+    grid-gap: 30px;
+    justify-content: center;
   }
+}
+
+.footer {
+  grid-area: footer;
+}
+.footer .social ul {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .footer section {
+    grid-template-columns: 200px 600px 200px;
+    grid-gap: 30px;
+    justify-content: center;
+  }
+}
+
+.imagegallery ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.recipes ul {
+  display: grid;
+  grid-template-columns: 30% auto 30% auto;
+}
+
+.header .header-1 {
+  display: grid;
+  grid-template-columns: 10% auto;
+}
+
+.footer .social ul {
+  display: grid;
+  grid-template-columns: repeat(4, 20px);
+}
+
+.locations section ul li {
+  display: grid;
+  grid-template-columns: 30px 200px;
+}
+
+.footer-1 {
+  display: grid;
+  grid-template-areas: "locations" "email" "social";
+  grid-template-columns: 30px 30px 30px;
 }
 
 /* =============
