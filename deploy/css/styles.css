@@ -369,6 +369,11 @@ main {
   display: grid;
   grid-template-areas: "header" "searchbar" "hero" "recipes" "imagegallery" "articles" "footer";
 }
+@media (min-width: 768px) {
+  main {
+    grid-template-areas: "header header header header header header" "searchbar searchbar searchbar searchbar searchbar searchbar" "hero hero hero hero hero hero" "recipes recipes recipes recipes recipes recipes" "imagegallery imagegallery imagegallery imagegallery imagegallery imagegallery" "articles articles articles articles articles articles" "footer footer footer footer footer footer";
+  }
+}
 
 .header {
   grid-area: header;
@@ -403,6 +408,23 @@ main {
 
 .recipes {
   grid-area: recipes;
+}
+.recipes ul {
+  display: grid;
+}
+.recipes .mealplan {
+  display: grid;
+  grid-template-columns: 400px auto;
+}
+.recipes .quicksnack {
+  display: grid;
+  grid-template-columns: 400px auto;
+}
+@media (min-width: 768px) {
+  .recipes ul {
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 30px;
+  }
 }
 
 .imagegallery {
@@ -444,11 +466,6 @@ main {
 .imagegallery ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-.recipes ul {
-  display: grid;
-  grid-template-columns: 30% auto 30% auto;
 }
 
 .header .header-1 {
