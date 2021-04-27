@@ -21,6 +21,7 @@ ul {
             "header"
             "searchbar"
             "hero"
+            "heroinfo"
             "recipes"
             "imagegallery"
             "articles"
@@ -31,6 +32,7 @@ ul {
             "header header header header header header"
             "searchbar searchbar searchbar searchbar searchbar searchbar"
             "hero hero hero hero hero hero"
+            "heroinfo heroinfo heroinfo heroinfo heroinfo heroinfo"
             "recipes recipes recipes recipes recipes recipes"
             "imagegallery imagegallery imagegallery imagegallery imagegallery imagegallery"
             "articles articles articles articles articles articles"
@@ -48,15 +50,17 @@ ul {
 
     .hero {
         grid-area: hero;
+    }
 
-        ul {
+    .heroinfo {
+        ul li {
             display: grid;
             grid-template-columns: 300px auto;
         }
 
         a {
             display: grid;
-            grid-template-columns: 350px auto;
+            grid-template-columns: 300px auto;
         }
 
         @include md {
@@ -64,7 +68,7 @@ ul {
                 grid-template-columns: repeat(12, 1fr);
 
                 .healthy {
-                    grid-column: span 5;
+                    grid-column: span 1;
                 }
 
                 .location {
@@ -88,7 +92,7 @@ ul {
 
         .quicksnack {
             display: grid;
-            grid-template-columns: 400px auto;
+            grid-template-columns: 400px auto;           
         }
 
         @include md {
@@ -101,6 +105,26 @@ ul {
 
     .imagegallery {
         grid-area: imagegallery;
+
+        ul {
+            display: grid;
+        }
+
+        @include md {
+            ul {
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+            }
+            .pomegranet {
+                grid-column: span 11;
+                grid-row: span 6;
+            }
+
+            .avocado {
+                grid-column: span 1;
+                grid-row: span 6;
+            }
+        }
     }
 
     .articles {
@@ -128,51 +152,42 @@ ul {
         grid-area: footer;
 
         .social ul {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(4,20px);
+        }
+
+        .locations {
+            section ul li {
+                display: grid;
+                grid-template-columns: 30px 200px;
+            }
         }
 
         @include md {
-            section {
-                grid-template-columns: 200px 600px 200px;
-                grid-gap: 30px;
-                justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+
+            .locations {
+                grid-column: 2 / 6;
+                grid-row: 1 / 4;
+            }
+
+            .email {
+                grid-column: 6 / 12;
+                grid-row: 1 / 2;
+            }
+
+            .social {
+                grid-column: 6 / 12;
+                grid-row: 5 / 3;
             }
         }
     }
-
-        .imagegallery ul {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-
-
-        
 
         .header {
             .header-1 {
                 display: grid;
                 grid-template-columns: 10% auto;
             }
-        }
-
-        .footer {
-            .social ul {
-                display: grid;
-                grid-template-columns: repeat(4,20px);
-            }
-        }
-
-            .locations {
-                section ul li {
-                    display: grid;
-                    grid-template-columns: 30px 200px;
-                }
-            }
-        .footer-1 {
-            display: grid;
-            grid-template-areas: 
-            "locations"
-            "email"
-            "social";
-            grid-template-columns: 30px 30px 30px;
         }

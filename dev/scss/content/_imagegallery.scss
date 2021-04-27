@@ -1,9 +1,9 @@
-.image-2 {
+.greens {
     display: none;
 }
 
 @include md {
-    .image-2 {
+    .greens {
         display: block;
     }
 }

@@ -661,13 +661,13 @@
     },
     "\/deploy\/img\/imagegallery\/heather-ford-Ug7kk0kThLk-unsplash.jpg" : {
       "ft" : 16384,
-      "iS" : 96305,
+      "iS" : 113891,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/imagegallery\/heather-ford-Ug7kk0kThLk-unsplash.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -760,6 +760,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/_hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_heroinfo.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_heroinfo.html",
       "oF" : 0
     },
     "\/dev\/content\/_imagegallery.kit" : {
@@ -914,6 +922,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/content\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
