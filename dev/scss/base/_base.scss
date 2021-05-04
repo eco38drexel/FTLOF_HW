@@ -201,22 +201,22 @@ ul {
 
         @include md {
             display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: repeat(4, 1fr);
+            grid-template-columns: repeat(6, 1fr);
+            grid-gap: 50px;
+            grid-template-areas: 
+            ". locations . email"
+            ". locations . social";
 
             .locations {
-                grid-column: 2 / 6;
-                grid-row: 1 / 4;
+                grid-area: locations;
             }
 
             .email {
-                grid-column: 6 / 12;
-                grid-row: 1 / 2;
+                grid-area: email;
             }
 
             .social {
-                grid-column: 6 / 12;
-                grid-row: 5 / 3;
+                grid-area: social;
             }
         }
     }

@@ -503,20 +503,18 @@ main {
 @media (min-width: 768px) {
   .footer {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 50px;
+    grid-template-areas: ". locations . email" ". locations . social";
   }
   .footer .locations {
-    grid-column: 2/6;
-    grid-row: 1/4;
+    grid-area: locations;
   }
   .footer .email {
-    grid-column: 6/12;
-    grid-row: 1/2;
+    grid-area: email;
   }
   .footer .social {
-    grid-column: 6/12;
-    grid-row: 5/3;
+    grid-area: social;
   }
 }
 
@@ -582,7 +580,7 @@ p {
   }
 }
 .articles h1 {
-  color: #3B6468;
+  color: #1f7a83;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -656,22 +654,22 @@ p {
 
 .footer {
   background-color: #F4E4D7;
-  padding: 30px;
+  padding: 60px 0;
 }
 .footer .locations {
-  color: #3B6468;
+  color: #1f7a83;
 }
 .footer .email {
-  color: #3B6468;
+  color: #1f7a83;
 }
 .footer .social {
-  color: #3B6468;
+  color: #1f7a83;
 }
 .footer .fab {
-  color: #3B6468;
+  color: #1f7a83;
 }
 .footer a {
-  color: #3B6468;
+  color: #1f7a83;
   text-decoration: none;
 }
 .footer button {
