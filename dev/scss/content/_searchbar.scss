@@ -1,10 +1,12 @@
 .searchbar {
     height: 60px;
     margin: 15px 8px 0;
+
     form input {
         border: none;
         border-bottom: 1px solid $dustyblue;
         padding: 10px;
+        color: $freshorange;
     }
 
     form button {

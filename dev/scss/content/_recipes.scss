@@ -1,0 +1,28 @@
+.recipes {
+
+    ul {
+        color: $white;
+        text-decoration: none;
+        text-align: left;
+
+        
+        .meals {
+            background-color: $dustyblue;
+            padding: 20px;
+            box-shadow: 1px 1px 3px $dustybluedark;
+            margin: 20px 20px;
+        }
+
+        button {
+            background-color: $dustybluedark;
+            color: $white;
+            border: none;
+            padding: 8px;
+            margin: 3%;
+
+            &:hover {
+                background: darken($dustybluedark, 20%)
+            }
+        }
+    }
+}
