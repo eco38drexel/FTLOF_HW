@@ -416,13 +416,21 @@ a {
 }
 .recipes .mealplan {
   display: grid;
-  grid-template-columns: 400px auto;
+  grid-template-columns: 70% auto;
 }
 .recipes .quicksnack {
   display: grid;
-  grid-template-columns: 400px auto;
+  grid-template-columns: 70% auto;
 }
 @media (min-width: 768px) {
+  .recipes .mealplan {
+    display: grid;
+    grid-template-columns: 400px auto;
+  }
+  .recipes .quicksnack {
+    display: grid;
+    grid-template-columns: 400px auto;
+  }
   .recipes ul {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 30px;
@@ -447,13 +455,9 @@ a {
 .articles ul {
   display: grid;
 }
-.articles ul {
-  display: grid;
-  grid-template-columns: 25% 288px;
-}
 @media (min-width: 768px) {
   .articles ul {
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 350px 350px;
     grid-gap: 30px;
     justify-content: center;
   }
@@ -546,29 +550,32 @@ p {
 }
 
 .new-image {
-  background-size: cover;
-  width: 350px;
   height: 180px;
 }
 
 .Article1 .new-image {
   background: url(/deploy/img/articles/pomegranets.jpg) no-repeat;
+  background-size: cover;
 }
 
 .Article2 .new-image {
   background: url(/deploy/img/articles/fruitbowls.jpg) no-repeat;
+  background-size: cover;
 }
 
 .Article3 .new-image {
   background: url(/deploy/img/articles/squash.jpg) no-repeat;
+  background-size: cover;
 }
 
 .Article4 .new-image {
   background: url(/deploy/img/articles/kale.jpg) no-repeat;
+  background-size: cover;
 }
 
 .Article5 .new-image {
   background: url(/deploy/img/articles/pizza.jpg) no-repeat;
+  background-size: cover;
 }
 
 .header-text {

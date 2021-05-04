@@ -1,35 +1,38 @@
 .new-image {
-    background-size: cover;
-    width: 350px;
     height: 180px;
 }
 
 .Article1 {
     .new-image {
         background: url(/deploy/img/articles/pomegranets.jpg) no-repeat;
+        background-size: cover;
     }
 }
 
 .Article2 {
     .new-image {
         background: url(/deploy/img/articles/fruitbowls.jpg) no-repeat;
+        background-size: cover;
     }
 }
 
 .Article3 {
     .new-image {
         background: url(/deploy/img/articles/squash.jpg) no-repeat;
+        background-size: cover;
     }
 }
 
 .Article4 {
     .new-image {
         background: url(/deploy/img/articles/kale.jpg) no-repeat;
+        background-size: cover;
     }
 }
 
 .Article5 {
     .new-image {
         background: url(/deploy/img/articles/pizza.jpg) no-repeat;
+        background-size: cover;
     }
 }
