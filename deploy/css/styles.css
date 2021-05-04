@@ -457,14 +457,40 @@ main {
 }
 @media (min-width: 768px) {
   .articles ul {
-    grid-template-columns: 350px 350px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
     grid-gap: 30px;
-    justify-content: center;
+    grid-template-areas: "new-1 new-1 new-2 new-2" "new-3 new-3 new-4 new-4" ". new-5 new-5 .";
+  }
+  .articles .Article1 {
+    grid-area: new-1;
+  }
+  .articles .Article2 {
+    grid-area: new-2;
+  }
+  .articles .Article3 {
+    grid-area: new-3;
+  }
+  .articles .Article4 {
+    grid-area: new-4;
+  }
+  .articles .Article5 {
+    grid-area: new-5;
+  }
+}
+@media (min-width: 1024px) {
+  .articles ul {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "new-1 new-1 new-2 new-2 new-3 new-3" ". new-4 new-4 new-5 new-5 .";
   }
 }
 
 .footer {
   grid-area: footer;
+}
+.footer .email ul {
+  display: grid;
+  grid-template-columns: 600px;
 }
 .footer .social ul {
   display: grid;
@@ -549,6 +575,34 @@ p {
   }
 }
 
+@media (min-width: 768px) {
+  .articles {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+.articles h1 {
+  color: #3B6468;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.articles .a-text {
+  background-color: #E6EFEF;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.articles button {
+  background-color: #F7981C;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.articles button:hover {
+  background: #a76106;
+}
+
 .new-image {
   height: 180px;
 }
@@ -594,10 +648,46 @@ p {
   color: #fff;
   border: none;
   padding: 8px;
-  margin: 3%;
+  margin-top: 20px;
 }
 .recipes ul button:hover {
   background: #475056;
+}
+
+.footer {
+  background-color: #F4E4D7;
+  padding: 30px;
+}
+.footer .locations {
+  color: #3B6468;
+}
+.footer .email {
+  color: #3B6468;
+}
+.footer .social {
+  color: #3B6468;
+}
+.footer .fab {
+  color: #3B6468;
+}
+.footer a {
+  color: #3B6468;
+  text-decoration: none;
+}
+.footer button {
+  background-color: #F7981C;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+.footer button:hover {
+  background: #a76106;
+}
+.footer input {
+  background-color: #B3CCAD;
+  color: #fff;
+  border: none;
+  padding: 20px;
 }
 
 .searchbar {
@@ -614,6 +704,9 @@ p {
   background-color: #ff6214;
   border: none;
   border-radius: 3.5px;
+}
+.searchbar form button:hover {
+  background: #ad3900;
 }
 .searchbar .fas {
   color: #fff;

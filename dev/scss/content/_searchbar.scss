@@ -13,6 +13,10 @@
         background-color: $freshorange;
         border: none;
         border-radius: 3.5px;
+
+        &:hover {
+            background: darken($freshorange, 20%)
+        }
     }
 
     .fas {

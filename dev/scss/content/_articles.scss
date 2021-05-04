@@ -1,3 +1,37 @@
+.articles {
+    @include md {
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+
+    h1 {
+        color: $deepblue;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .a-text {
+        background-color: $babyblue;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        background-color: $orangepeel;
+            color: $white;
+            border: none;
+            padding: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+           
+
+            &:hover {
+                background: darken($orangepeel, 20%)
+            }
+    }
+}
+
 .new-image {
     height: 180px;
 }

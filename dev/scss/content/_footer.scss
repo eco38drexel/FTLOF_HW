@@ -1,0 +1,43 @@
+.footer {
+    background-color: $peachy;
+    padding: 30px;
+
+    .locations {
+        color: $deepblue;
+    }
+
+    .email {
+        color: $deepblue;
+    }
+
+    .social {
+        color: $deepblue;
+    }
+
+    .fab {
+        color: $deepblue;
+    }
+
+    a {
+        color: $deepblue;
+        text-decoration: none;
+    }
+
+    button {
+        background-color: $orangepeel;
+        color: $white;
+        border: none;
+        padding: 10px;
+
+        &:hover {
+            background: darken($orangepeel, 20%)
+        }
+    }
+
+    input {
+        background-color: $kale;
+        color: $white;
+        border: none;
+        padding: 20px;
+    }
+}

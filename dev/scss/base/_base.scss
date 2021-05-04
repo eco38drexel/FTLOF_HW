@@ -99,7 +99,6 @@ ul {
             display: grid;
             grid-template-columns: 70% auto;
         }
-        
 
         @include md {
             ul {
@@ -140,15 +139,53 @@ ul {
 
         @include md {
             ul {
-                grid-template-columns: 350px 350px;
+                grid-template-columns: repeat(4, 1fr);
+                margin: 20px;
                 grid-gap: 30px;
-                justify-content: center;
+                grid-template-areas: 
+                "new-1 new-1 new-2 new-2"
+                "new-3 new-3 new-4 new-4"
+                ". new-5 new-5 .";
+            }
+
+            .Article1 {
+                grid-area: new-1;
+            }
+
+            .Article2 {
+                grid-area: new-2;
+            }
+
+            .Article3 {
+                grid-area: new-3;
+            }
+
+            .Article4 {
+                grid-area: new-4;
+            }
+
+            .Article5 {
+                grid-area: new-5;
+            }
+        }
+
+        @include lg {
+            ul {
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas: 
+                "new-1 new-1 new-2 new-2 new-3 new-3"
+                ". new-4 new-4 new-5 new-5 .";
             }
         }
     }
 
     .footer {
         grid-area: footer;
+
+        .email ul {
+            display: grid;
+            grid-template-columns: 600px;
+        }
 
         .social ul {
             display: grid;
