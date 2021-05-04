@@ -51,8 +51,6 @@ ul {
     .hero {
         grid-area: hero;
     }
-
-    .heroinfo {
         ul li {
             display: grid;
             grid-template-columns: 300px auto;
@@ -76,7 +74,6 @@ ul {
                 }
             }
         }
-    }
 
     .recipes {
         grid-area: recipes;
@@ -112,17 +109,7 @@ ul {
 
         @include md {
             ul {
-                grid-template-columns: repeat(12, 1fr);
-                grid-template-rows: repeat(6, 1fr);
-            }
-            .pomegranet {
-                grid-column: span 11;
-                grid-row: span 6;
-            }
-
-            .avocado {
-                grid-column: span 1;
-                grid-row: span 6;
+                grid-template-columns: 50% auto;
             }
         }
     }

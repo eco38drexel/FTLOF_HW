@@ -1,9 +1,31 @@
-.greens {
-    display: none;
-}
+.imagegallery {
 
-@include md {
+    width: 100%;
+
+    .image {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pomegranet {
+        background-image: url(/deploy/img/imagegallery/brooke-lark-iLZ8SBO0pn4-unsplash.jpg);
+        height: 600px;
+        width: 100%;
+    }
+    .avocado {
+        background-image: url(/deploy/img/imagegallery/heather-ford-Ug7kk0kThLk-unsplash.jpg);
+        height: 700px;
+        width: 100%;
+    }
     .greens {
-        display: block;
+        background-image: url(/deploy/img/imagegallery/dose-juice-sTPy-oeA3h0-unsplash.jpg);
+        height: 800px;
+        width: 100%;
+        display: none;
+    }
+
+    @include md {
+        .image {
+            height: 700px;
+        }
     }
 }

@@ -633,12 +633,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/imagegallery\/brooke-lark-iLZ8SBO0pn4-unsplash(1).jpg" : {
+    "\/deploy\/img\/imagegallery\/brooke-lark-iLZ8SBO0pn4-unsplash.jpg" : {
       "ft" : 16384,
       "iS" : 218592,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/imagegallery\/brooke-lark-iLZ8SBO0pn4-unsplash(1).jpg",
+      "oAP" : "\/deploy\/img\/imagegallery\/brooke-lark-iLZ8SBO0pn4-unsplash.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -760,14 +760,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/_hero.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/_heroinfo.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_heroinfo.html",
       "oF" : 0
     },
     "\/dev\/content\/_imagegallery.kit" : {
@@ -894,6 +886,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_forms.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/components\/_imagegallery.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_imagegallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
