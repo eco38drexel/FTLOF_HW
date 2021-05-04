@@ -394,7 +394,7 @@ ul li {
 
 a {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: auto auto;
 }
 
 @media (min-width: 768px) {
@@ -543,6 +543,32 @@ p {
   .imagegallery .image {
     height: 700px;
   }
+}
+
+.new-image {
+  background-size: cover;
+  width: 350px;
+  height: 180px;
+}
+
+.Article1 .new-image {
+  background: url(/deploy/img/articles/pomegranets.jpg) no-repeat;
+}
+
+.Article2 .new-image {
+  background: url(/deploy/img/articles/fruitbowls.jpg) no-repeat;
+}
+
+.Article3 .new-image {
+  background: url(/deploy/img/articles/squash.jpg) no-repeat;
+}
+
+.Article4 .new-image {
+  background: url(/deploy/img/articles/kale.jpg) no-repeat;
+}
+
+.Article5 .new-image {
+  background: url(/deploy/img/articles/pizza.jpg) no-repeat;
 }
 
 .header-text {

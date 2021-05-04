@@ -555,25 +555,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/articles\/anne-sophie-benoit-Fan_HlAfpu0-unsplash(1).jpg" : {
-      "ft" : 16384,
-      "iS" : 69485,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/articles\/anne-sophie-benoit-Fan_HlAfpu0-unsplash(1).jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/articles\/brooke-lark-nTZOILVZuOg-unsplash.jpg" : {
+    "\/deploy\/img\/articles\/fruitbowls.jpg" : {
       "ft" : 16384,
       "iS" : 103433,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/articles\/brooke-lark-nTZOILVZuOg-unsplash.jpg",
+      "oAP" : "\/deploy\/img\/articles\/fruitbowls.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -581,12 +568,38 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/articles\/foodism360-0eJVAZJ7jJU-unsplash(1).jpg" : {
+    "\/deploy\/img\/articles\/kale.jpg" : {
+      "ft" : 16384,
+      "iS" : 66104,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/articles\/kale.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/articles\/pizza.jpg" : {
+      "ft" : 16384,
+      "iS" : 69485,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/articles\/pizza.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/articles\/pomegranets.jpg" : {
       "ft" : 16384,
       "iS" : 21050,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/articles\/foodism360-0eJVAZJ7jJU-unsplash(1).jpg",
+      "oAP" : "\/deploy\/img\/articles\/pomegranets.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -594,25 +607,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/articles\/foodism360-4-qDs0YzJH0-unsplash(1).jpg" : {
+    "\/deploy\/img\/articles\/squash.jpg" : {
       "ft" : 16384,
       "iS" : 107940,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/articles\/foodism360-4-qDs0YzJH0-unsplash(1).jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/articles\/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 66104,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/articles\/vitalii-pavlyshynets-kcRFW-Hje8Y-unsplash.jpg",
+      "oAP" : "\/deploy\/img\/articles\/squash.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -914,6 +914,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/_articles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/_articles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

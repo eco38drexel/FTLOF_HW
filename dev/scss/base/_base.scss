@@ -58,7 +58,7 @@ ul {
 
         a {
             display: grid;
-            grid-template-columns: 300px auto;
+            grid-template-columns: auto auto;
         }
 
         @include md {
