@@ -377,37 +377,43 @@ main {
 
 .header {
   grid-area: header;
+  display: grid;
 }
 
 .searchbar {
   grid-area: searchbar;
 }
+.searchbar form {
+  display: grid;
+  grid-template-columns: 95% auto;
+  grid-gap: 20px;
+}
 
 .hero {
   grid-area: hero;
 }
-
-ul li {
-  display: grid;
-  grid-template-columns: 300px auto;
+.hero img {
+  width: 100%;
 }
-
-a {
+.hero ul {
   display: grid;
-  grid-template-columns: auto auto;
 }
-
+.hero a {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
 @media (min-width: 768px) {
-  ul {
+  .hero ul {
     grid-template-columns: repeat(12, 1fr);
   }
-  ul .healthy {
-    grid-column: span 1;
+  .hero ul .healthy {
+    grid-column: span 5;
   }
-  ul .location {
+  .hero ul .location {
     grid-column: span 7;
   }
 }
+
 .recipes {
   grid-area: recipes;
 }
@@ -578,19 +584,49 @@ p {
   background-size: cover;
 }
 
-.header-text {
-  display: none;
+.searchbar {
+  height: 60px;
+  margin: 15px 8px 0;
+}
+.searchbar form input {
+  border: none;
+  border-bottom: 1px solid #AFC5C7;
+  padding: 10px;
+}
+.searchbar form button {
+  background-color: #ff6214;
+  border: none;
+  border-radius: 3.5px;
+}
+.searchbar .fas {
+  color: #fff;
 }
 
-@media (min-width: 768px) {
-  .header-text {
-    display: block;
-  }
+header {
+  background-color: #F4E4D7;
+  padding: 10px;
 }
+
 .hero-img {
   background: url("../../../deploy/img/hero/ola-mishchenko-VRB1LJoTZ6w-unsplash(1).jpg");
   background-size: cover;
   background-position: center;
   height: 800px;
   width: 100%;
+}
+
+.hero ul .details a {
+  padding: 20px;
+}
+.hero ul .healthy a {
+  background-color: #93B184;
+}
+.hero ul .healthy a:hover {
+  background: #789d65;
+}
+.hero ul .location a {
+  background-color: #B3CCAD;
+}
+.hero ul .location a:hover {
+  background: #a4c29d;
 }

@@ -42,23 +42,33 @@ ul {
 
     .header {
         grid-area: header;
+        display: grid;
     }
 
     .searchbar {
         grid-area: searchbar;
+        
+        form {
+            display: grid;
+            grid-template-columns: 95% auto;
+            grid-gap: 20px;
+        }
     }
 
     .hero {
         grid-area: hero;
-    }
-        ul li {
+
+        img {
+            width: 100%;
+        }
+
+        ul {
             display: grid;
-            grid-template-columns: 300px auto;
         }
 
         a {
             display: grid;
-            grid-template-columns: auto auto;
+            grid-template-columns: 75% auto;
         }
 
         @include md {
@@ -66,7 +76,7 @@ ul {
                 grid-template-columns: repeat(12, 1fr);
 
                 .healthy {
-                    grid-column: span 1;
+                    grid-column: span 5;
                 }
 
                 .location {
@@ -74,6 +84,9 @@ ul {
                 }
             }
         }
+
+    }
+        
 
     .recipes {
         grid-area: recipes;

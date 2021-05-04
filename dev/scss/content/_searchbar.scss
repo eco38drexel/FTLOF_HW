@@ -1,0 +1,19 @@
+.searchbar {
+    height: 60px;
+    margin: 15px 8px 0;
+    form input {
+        border: none;
+        border-bottom: 1px solid $dustyblue;
+        padding: 10px;
+    }
+
+    form button {
+        background-color: $freshorange;
+        border: none;
+        border-radius: 3.5px;
+    }
+
+    .fas {
+        color: $white;
+    }
+}

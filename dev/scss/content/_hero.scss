@@ -5,3 +5,25 @@
     height: 800px;
     width: 100%;
 }
+
+.hero {
+    ul {
+        .details a {
+            padding: 20px;
+        }
+
+        .healthy a {
+            background-color: $kaledark;
+            &:hover {
+                background: darken($kaledark, 10%)
+            }
+        }
+
+        .location a {
+            background-color: $kale;
+            &:hover {
+                background: darken($kale, 5%)
+            }
+        }
+    }
+}
