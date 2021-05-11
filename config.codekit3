@@ -685,28 +685,28 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/recipes\/dan-gold-4_jhDO54BYg-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 24425,
-      "jF" : 0,
+    "\/deploy\/img\/recipes\/dan-gold-4_jhDO54BYg-unsplash.png" : {
+      "ft" : 32768,
+      "iS" : 31465,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/recipes\/dan-gold-4_jhDO54BYg-unsplash.jpg",
+      "oAP" : "\/deploy\/img\/recipes\/dan-gold-4_jhDO54BYg-unsplash.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/recipes\/ellieelien-wg2xU_UNiVc-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 17290,
-      "jF" : 0,
+    "\/deploy\/img\/recipes\/ellieelien-wg2xU_UNiVc-unsplash.png" : {
+      "ft" : 32768,
+      "iS" : 24392,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/recipes\/ellieelien-wg2xU_UNiVc-unsplash.jpg",
+      "oAP" : "\/deploy\/img\/recipes\/ellieelien-wg2xU_UNiVc-unsplash.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

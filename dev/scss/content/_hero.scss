@@ -8,11 +8,14 @@
 
 .hero {
     ul {
+        .details h5 {
+            display: none;
+        }
         .details a {
             color: $white;
             text-decoration: none;
-            text-align: left;
-            padding: 20px;
+            padding: 40px;
+            
         }
 
         .healthy a {
@@ -26,6 +29,12 @@
             background-color: $kale;
             &:hover {
                 background: darken($kale, 5%)
+            }
+        }
+
+        @include md {
+            .details h5 {
+                display: inline-block;
             }
         }
     }

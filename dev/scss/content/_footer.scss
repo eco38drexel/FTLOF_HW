@@ -1,12 +1,37 @@
 .footer {
     background-color: $peachy;
-    padding: 60px 0;
+    padding: 30px;
+
+    .button {
+        margin-top: 10px;
+        margin-left: 340px;
+    }
+
+    @include md {
+        .button {
+            margin-top: 10px;
+            margin-left: 100px;
+        }
+    }
+
+    @include lg {
+        .button {
+            margin-top: 10px;
+            margin-left: 300px;
+        }
+    }
+
 
     .locations {
         color: $deepblue;
     }
 
     .email {
+
+        .light {
+            font-weight: 300;
+        }
+
         color: $deepblue;
     }
 
@@ -28,6 +53,7 @@
         color: $white;
         border: none;
         padding: 10px;
+        
 
         &:hover {
             background: darken($orangepeel, 20%)

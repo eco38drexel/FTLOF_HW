@@ -448,6 +448,11 @@ main {
     grid-template-columns: 50% auto;
   }
 }
+@media (min-width: 1024px) {
+  .imagegallery ul {
+    grid-template-columns: 60% auto;
+  }
+}
 
 .articles {
   grid-area: articles;
@@ -458,7 +463,7 @@ main {
 @media (min-width: 768px) {
   .articles ul {
     grid-template-columns: repeat(4, 1fr);
-    margin: 20px;
+    margin: 0 auto;
     grid-gap: 30px;
     grid-template-areas: "new-1 new-1 new-2 new-2" "new-3 new-3 new-4 new-4" ". new-5 new-5 .";
   }
@@ -488,9 +493,13 @@ main {
 .footer {
   grid-area: footer;
 }
-.footer .email ul {
+.footer .email li {
   display: grid;
-  grid-template-columns: 600px;
+  grid-template-columns: auto;
+  grid-row: auto 60px;
+}
+.footer .email li h3 {
+  align-content: center;
 }
 .footer .social ul {
   display: grid;
@@ -498,7 +507,7 @@ main {
 }
 .footer .locations section ul li {
   display: grid;
-  grid-template-columns: 30px 200px;
+  grid-template-columns: 40px 200px;
 }
 @media (min-width: 768px) {
   .footer {
@@ -517,20 +526,35 @@ main {
     grid-area: social;
   }
 }
-
-.header .header-1 {
-  display: grid;
-  grid-template-columns: 10% auto;
+@media (min-width: 1024px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    grid-template-areas: "locations email social";
+  }
+  .footer .locations {
+    margin: auto;
+    margin-top: 0;
+  }
+  .footer .social {
+    margin: auto;
+    margin-top: 0;
+  }
+  .footer .email {
+    margin: auto;
+    margin-top: 0;
+  }
 }
 
 /* =============
     Typography
 ============= */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h4 {
   margin: 0;
   padding: 0;
 }
@@ -538,6 +562,7 @@ h1, h2, h3, h4 {
 p {
   margin: 0;
   padding: 0;
+  padding-top: 10px;
 }
 
 .section-title {
@@ -553,13 +578,13 @@ p {
 }
 .imagegallery .pomegranet {
   background-image: url(/deploy/img/imagegallery/brooke-lark-iLZ8SBO0pn4-unsplash.jpg);
-  height: 600px;
-  width: 100%;
+  height: 800px;
+  width: auto;
 }
 .imagegallery .avocado {
   background-image: url(/deploy/img/imagegallery/heather-ford-Ug7kk0kThLk-unsplash.jpg);
-  height: 700px;
-  width: 100%;
+  height: 800px;
+  width: auto;
 }
 .imagegallery .greens {
   background-image: url(/deploy/img/imagegallery/dose-juice-sTPy-oeA3h0-unsplash.jpg);
@@ -570,6 +595,11 @@ p {
 @media (min-width: 768px) {
   .imagegallery .image {
     height: 700px;
+  }
+}
+@media (min-width: 1024px) {
+  .imagegallery .image {
+    height: 900px;
   }
 }
 
@@ -602,29 +632,44 @@ p {
 }
 
 .new-image {
-  height: 180px;
+  height: 200px;
 }
 
+.Article1 .light {
+  font-weight: 300;
+}
 .Article1 .new-image {
   background: url(/deploy/img/articles/pomegranets.jpg) no-repeat;
   background-size: cover;
 }
 
+.Article2 .light {
+  font-weight: 300;
+}
 .Article2 .new-image {
   background: url(/deploy/img/articles/fruitbowls.jpg) no-repeat;
   background-size: cover;
 }
 
+.Article3 .light {
+  font-weight: 300;
+}
 .Article3 .new-image {
   background: url(/deploy/img/articles/squash.jpg) no-repeat;
   background-size: cover;
 }
 
+.Article4 .light {
+  font-weight: 300;
+}
 .Article4 .new-image {
   background: url(/deploy/img/articles/kale.jpg) no-repeat;
   background-size: cover;
 }
 
+.Article5 .light {
+  font-weight: 300;
+}
 .Article5 .new-image {
   background: url(/deploy/img/articles/pizza.jpg) no-repeat;
   background-size: cover;
@@ -651,16 +696,41 @@ p {
 .recipes ul button:hover {
   background: #475056;
 }
+@media (min-width: 1024px) {
+  .recipes {
+    width: 100%;
+    margin: 0;
+  }
+}
 
 .footer {
   background-color: #F4E4D7;
-  padding: 60px 0;
+  padding: 30px;
+}
+.footer .button {
+  margin-top: 10px;
+  margin-left: 340px;
+}
+@media (min-width: 768px) {
+  .footer .button {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer .button {
+    margin-top: 10px;
+    margin-left: 300px;
+  }
 }
 .footer .locations {
   color: #1f7a83;
 }
 .footer .email {
   color: #1f7a83;
+}
+.footer .email .light {
+  font-weight: 300;
 }
 .footer .social {
   color: #1f7a83;
@@ -723,11 +793,13 @@ header {
   width: 100%;
 }
 
+.hero ul .details h5 {
+  display: none;
+}
 .hero ul .details a {
   color: #fff;
   text-decoration: none;
-  text-align: left;
-  padding: 20px;
+  padding: 40px;
 }
 .hero ul .healthy a {
   background-color: #93B184;
@@ -740,4 +812,9 @@ header {
 }
 .hero ul .location a:hover {
   background: #a4c29d;
+}
+@media (min-width: 768px) {
+  .hero ul .details h5 {
+    display: inline-block;
+  }
 }

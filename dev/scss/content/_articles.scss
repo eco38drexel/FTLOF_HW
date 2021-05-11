@@ -2,7 +2,6 @@
     @include md {
         width: 70%;
         margin: 0 auto;
-        
     }
 
     h1 {
@@ -33,10 +32,15 @@
 }
 
 .new-image {
-    height: 180px;
+    height: 200px;
 }
 
 .Article1 {
+
+    .light {
+        font-weight: 300;
+    }
+
     .new-image {
         background: url(/deploy/img/articles/pomegranets.jpg) no-repeat;
         background-size: cover;
@@ -44,6 +48,11 @@
 }
 
 .Article2 {
+
+    .light {
+        font-weight: 300;
+    }
+
     .new-image {
         background: url(/deploy/img/articles/fruitbowls.jpg) no-repeat;
         background-size: cover;
@@ -51,6 +60,11 @@
 }
 
 .Article3 {
+
+    .light {
+        font-weight: 300;
+    }
+
     .new-image {
         background: url(/deploy/img/articles/squash.jpg) no-repeat;
         background-size: cover;
@@ -58,6 +72,11 @@
 }
 
 .Article4 {
+
+    .light {
+        font-weight: 300;
+    }
+
     .new-image {
         background: url(/deploy/img/articles/kale.jpg) no-repeat;
         background-size: cover;
@@ -65,6 +84,11 @@
 }
 
 .Article5 {
+
+    .light {
+        font-weight: 300;
+    }
+    
     .new-image {
         background: url(/deploy/img/articles/pizza.jpg) no-repeat;
         background-size: cover;
